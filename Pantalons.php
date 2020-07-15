@@ -2,11 +2,10 @@
 
 class Pantalons extends Vetements
 {
-    public $pantalons;
+    public $taille;
 
-    public function __construct($taille, $pantalons, $disponibilité, $prix)
+    public function __construct($taille, $disponibilité, $prix)
     {
-        parent:: __construct($taille, $disponibilité, $prix);
-        $this->pantalons = $pantalons
-    }
+        parent:: __construct($disponibilité, $prix);
+        $this->taille = $taille
 }
