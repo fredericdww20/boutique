@@ -7,6 +7,6 @@ class Chaussures extends Vetements
     public function __construct($pointure, $disponibilité, $prix)
     {
         parent:: __construct($disponibilité, $prix);
-        $this->pointure = $pointure
+        $this->pointure = $pointure;
     }
 }
