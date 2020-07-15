@@ -1,4 +1,5 @@
 <?php
 
-require("vetement.php");
+require("Vetement.php");
+require("Chaussures.php");
 
