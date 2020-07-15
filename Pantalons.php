@@ -9,3 +9,4 @@ class Pantalons extends Vetements
         parent:: __construct($disponibilité, $prix);
         $this->taille = $taille
 }
+}
